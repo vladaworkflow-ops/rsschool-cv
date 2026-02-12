@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li href="#about">About</li>
+        <li href="#skills">Skills</li>
+        <li href="#projects">Projects</li>
+        <li href="#code">Code</li>
+        <li href="#contact">Contact</li>
+      </ul>
+    </nav>
+    <h1>Vladyslava Nikitchenko</h1>
+    <img src="./src/images/vlada2026.jpg" alt="my-foto" width="100" height="100">
+  </header>
+  <main>
+    <section>
+      <h2>self-introduction</h2>
+      <p> I am motivated by creating impactful products that solve complex technical challenges encountered in everyday use.
+I have 3 years of hands-on experience developing responsive landing pages and multi-page websites using JavaScript (ES6+), React, TypeScript, HTML5, and CSS/SCSS. I focus on clean, maintainable code, pixel-perfect implementation from Figma designs, SEO best practices, and cross-device compatibility.
+I enjoy working in collaborative teams with experienced engineers, where knowledge sharing and mutual growth are part of the culture. I value continuous professional development, engineering excellence, and alignment with a company’s cultural values.</p>
+    </section>
+    <section>
+      <h2>contact-information</h2>
+      <ul>
+        <li>Email: <a href="mailto:vlada.work.flow@gmail.com">vlada.work.flow@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/vladyslava-frontend-dev/">Linkedin</a></li>
+        <li><a href="https://github.com/VlaRu">main github</a></li>
+        <li><a href="https://github.com/VlaRu/vladaworkflow-ops">second github</a></li>
+        <li>Discord: @vladaworkflow-ops || @vlaru.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>React</li>
+        <li>Redux</li>
+        <li>Typescript</li>
+        <li>Java Script</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Git</li>
+        <li>webpack</li>
+      </ul>
+    </section>
+    <section>
+      <h2>code-example</h2>
+      <pre><code>
+        const createIterator = (array = []) => {
+          let index = 0;
+
+          return {
+            next() {
+              return {
+                value: array[index],
+                done: index &gt;= array.length ? ((index = array.length), true) : (index++, false),
+              };
+            },
+            get index() {
+              return index;
+            },
+          };
+        };
+      </code></pre>
+    </section>
+    <section>
+      <h2>educational project</h2>
+      <ul>
+        <li><a href="https://react-ts-pokemon.netlify.app/" target="_blank">Pokemon Api(React/TS/Redux)</a></li>
+        <li><a href="https://todo-list-react-rtk.netlify.app/" target="_blank">Todo List (React/Redux)</a></li>
+        <li><a href="https://vlaru.github.io/different-projects/coffee-house/pages/home/home.html" target="_blank">Coffee House</a></li>
+        <li><a href="https://vlaru.github.io/different-projects/nonograms/" target="_blank">Nonograms</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <p>Rss-course 2023Q4</p>
+    </section>
+    <section>
+      <h2>Language</h2>
+      <ul>
+        <li>English B2</li>
+        <li>Polish B2</li>
+        <li>Spanish B2</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/vladaworkflow-ops" target="_blank"><img src="" alt="github-logo"></a>
+    <p>was created at 2026</p>
+    <a href="https://rs.school/courses/short-track" target="_blank"><img src="https://github.com/rolling-scopes-school/qualifying-stage/blob/main/tasks/cv/images/rs-school-logo.svg" alt="rs-school-logo"></a>
+  </footer>
+</body>
+</html>
