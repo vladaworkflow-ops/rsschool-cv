@@ -1,15 +1,15 @@
-function openBurger(){
+function openBurger() {
   const burger = document.getElementById('burger');
   const nav = document.getElementById('main-nav');
-  if(!burger || !nav) return;
-  burger.addEventListener('click', function(){
-    const opened = nav.classList.toggle('open');
-    burger.classList.toggle('open');
-    burger.setAttribute('aria-expanded', opened ? 'true' : 'false');
-  });
-};
+  if (!burger || !nav) return;
 
-openBurger()
+  burger.addEventListener('click', function() {
+    nav.classList.toggle('open');
+    burger.classList.toggle('open');
+  });
+}
+
+openBurger();
 
 const dots = document.getElementById("dots");
 const moreText = document.getElementById("more");
